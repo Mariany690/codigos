@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Canvas HTML5</title>
+    </head>
+    <body>
+        <h1>Dibujo en Canvas</h1>
+        <canvas id="myCanvas" width="500" height="500"></canvas>
+        <script>
+            var canvas=document.getElementById("myCanvas");
+            var ctx=canvas.getContext("2d");
+            ctx.fillStyle="#FF0000";
+            ctx.fillRect(20, 20, 150, 100);
+        </script>
+    </body>
+</html>
